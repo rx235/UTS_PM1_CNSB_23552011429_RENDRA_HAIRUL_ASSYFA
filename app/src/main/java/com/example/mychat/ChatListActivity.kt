@@ -10,9 +10,9 @@ import androidx.appcompat.app.AppCompatActivity
 class ChatListActivity : AppCompatActivity() {
     // Data chat awal
     private val initialChats = listOf(
-        Chat("Admin", "Selamat datang di Obrolin!", "10:00"),
+        Chat("Admin", "Selamat datang di My Chat!", "10:00"),
         Chat("Support", "Ada yang bisa kami bantu?", "09:30"),
-        Chat("Budi", "Hai, apa kabar?", "08:15")
+        Chat("Kadal", "Hai, apa kabar?", "08:15")
     )
 
     private val chatList = initialChats.toMutableList()
